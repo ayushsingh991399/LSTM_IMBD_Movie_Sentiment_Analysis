@@ -9,6 +9,7 @@
 ![Render](https://img.shields.io/badge/Render-Deployed-purple)
 
 ---
+![Streamlit UI](streamlit.png)
 
 ## 📌 Project Overview
 
@@ -25,12 +26,11 @@ The trained model is:
 ## 🌐 Live Deployment (Render)
 
 🔗 **FastAPI Swagger UI:**  
-`<PASTE_YOUR_RENDER_FASTAPI_URL_HERE>/docs`
+`https://imdb-sentiment-app-v1.onrender.com//docs`
 
 🔗 **Streamlit App:**  
-`<PASTE_YOUR_RENDER_STREAMLIT_URL_HERE>`
+`https://lstm-imbd-movie-sentiment-analysis.streamlit.app/`
 
-> Replace the placeholders above with your actual Render URLs.
 
 ---
 
@@ -49,7 +49,7 @@ This project automates **sentiment classification of IMDB movie reviews**, enabl
 
 Dataset location:
 ```
-data/IMDB_Dataset.csv
+IMDB_Dataset.csv
 ```
 
 ---
@@ -79,6 +79,7 @@ Artifacts generated:
 ---
 
 ## 🚀 FastAPI Inference Service (Local)
+![Render](render.png)
 
 ```bash
 uvicorn predict:app --host 0.0.0.0 --port 9696
@@ -105,7 +106,7 @@ http://localhost:8501
 
 ## 📸 Streamlit UI Preview
 
-![Streamlit UI](screenshots/streamlit_app.png)
+![Streamlit UI](streamlit.png)
 
 ---
 
@@ -124,10 +125,11 @@ docker run -p 9696:9696 imdb-sentiment-app
 ---
 
 ## ☁️ Docker Hub Image
+![Docker](docker.png)
 
 ```bash
-docker pull <your-dockerhub-username>/imdb-sentiment-app:latest
-docker run -p 9696:9696 <your-dockerhub-username>/imdb-sentiment-app:latest
+docker pull ayushgurjar10/imdb-sentiment-app:latest
+docker run -p 9696:9696 ayushgurjar10/imdb-sentiment-app:latest
 ```
 
 ---
@@ -146,7 +148,6 @@ imdb-sentiment-lstm/
 │── requirements.txt
 │── Dockerfile
 │── README.md
-│── screenshots/
 ```
 
 ---
@@ -167,3 +168,4 @@ imdb-sentiment-lstm/
 ## 🏆 Conclusion
 
 This project demonstrates **full-stack ML engineering**, covering data preprocessing, deep learning, API development, UI visualization, containerization, and cloud deployment.
+
