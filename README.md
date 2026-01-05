@@ -138,7 +138,8 @@ docker run -p 9696:9696 ayushgurjar10/imdb-sentiment-app:latest
 
 ```
 imdb-sentiment-lstm/
-│── data/
+│── uv.lock
+│── pyproject.toml
 │── notebook.ipynb
 │── train.py
 │── predict.py
@@ -148,6 +149,8 @@ imdb-sentiment-lstm/
 │── requirements.txt
 │── Dockerfile
 │── README.md
+│── test0.py
+│── test1.py
 ```
 
 ---
@@ -168,4 +171,5 @@ imdb-sentiment-lstm/
 ## 🏆 Conclusion
 
 This project demonstrates **full-stack ML engineering**, covering data preprocessing, deep learning, API development, UI visualization, containerization, and cloud deployment.
+
 
