@@ -116,7 +116,11 @@ if predict_btn:
 # -----------------------------
 # Footer
 # -----------------------------
-st.markdown(
-    '<div class="footer">Built with ❤️ using Streamlit, FastAPI & LSTM</div>',
-    unsafe_allow_html=True
-)
+st.markdown("""
+<div class="footer">
+  Built By ❤️ Ayush Singh |
+  <a href="https://ayush-singh-09.vercel.app/" target="_blank">
+    Portfolio
+  </a>
+</div>
+""", unsafe_allow_html=True)
