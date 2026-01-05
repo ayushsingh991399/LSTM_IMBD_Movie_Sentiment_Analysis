@@ -26,10 +26,10 @@ The trained model is:
 ## 🌐 Live Deployment (Render)
 
 🔗 **FastAPI Swagger UI:**  
-https://imdb-sentiment-app-v1.onrender.com//docs
+Link : https://imdb-sentiment-app-v1.onrender.com//docs
 
 🔗 **Streamlit App:**  
-https://lstm-imbd-movie-sentiment-analysis.streamlit.app/
+Link : https://lstm-imbd-movie-sentiment-analysis.streamlit.app/
 
 
 ---
@@ -173,6 +173,7 @@ imdb-sentiment-lstm/
 ## 🏆 Conclusion
 
 This project demonstrates **full-stack ML engineering**, covering data preprocessing, deep learning, API development, UI visualization, containerization, and cloud deployment.
+
 
 
 
