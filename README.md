@@ -15,11 +15,13 @@
 
 This project is an **end-to-end Machine Learning application** that predicts whether a movie review is **Positive** or **Negative** using a **Long Short-Term Memory (LSTM)** neural network.
 
-The trained model is:
-- Exposed via a **FastAPI REST API**
-- Visualized using an **interactive Streamlit web app**
-- Fully **containerized with Docker**
-- **Deployed on Render**
+The solution demonstrates the **complete ML lifecycle**, including:
+- Data preprocessing and exploratory data analysis (EDA)
+- Deep learning model training and evaluation
+- Model serving using **FastAPI**
+- Interactive UI using **Streamlit**
+- Containerization with **Docker**
+- Cloud deployment on **Render**
 
 ---
 
@@ -36,8 +38,10 @@ Link : https://lstm-imbd-movie-sentiment-analysis.streamlit.app/
 
 ## 🧠 Problem Statement
 
-Online platforms receive millions of textual reviews daily. Manually analyzing sentiment is inefficient and error-prone.  
-This project automates **sentiment classification of IMDB movie reviews**, enabling scalable and real-time sentiment analysis.
+Online platforms receive millions of user-generated reviews every day.  
+Manually analyzing sentiment from this unstructured text data is inefficient, time-consuming, and error-prone.
+
+This project automates **sentiment classification of IMDB movie reviews** using a deep learning model, enabling scalable and real-time sentiment analysis.
 
 ---
 
@@ -53,6 +57,18 @@ IMDB_Dataset.csv
 ```
 
 ---
+---
+
+## 🔍 Exploratory Data Analysis (EDA)
+
+The notebook includes:
+- Class distribution analysis (positive vs negative)
+- Review length distribution
+- Tokenization and padding analysis
+- Text preprocessing inspection
+
+---
+
 
 ## 🤖 Model Architecture
 
@@ -156,6 +172,17 @@ imdb-sentiment-lstm/
 ```
 
 ---
+---
+
+## 🔁 Reproducibility & Environment Setup
+
+```bash
+python -m venv venv
+source venv/bin/activate   # Windows: venv\Scripts\activate
+pip install -r requirements.txt
+```
+
+---
 
 ## ✅ ML Zoomcamp Evaluation Coverage
 
@@ -173,6 +200,7 @@ imdb-sentiment-lstm/
 ## 🏆 Conclusion
 
 This project demonstrates **full-stack ML engineering**, covering data preprocessing, deep learning, API development, UI visualization, containerization, and cloud deployment.
+
 
 
 
