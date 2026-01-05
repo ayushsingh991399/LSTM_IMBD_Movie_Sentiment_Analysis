@@ -33,6 +33,9 @@ Link : https://imdb-sentiment-app-v1.onrender.com/docs
 🔗 **Streamlit App:**  
 Link : https://lstm-imbd-movie-sentiment-analysis.streamlit.app/
 
+🔗 **Docker Image:**  
+Link : https://hub.docker.com/repository/docker/ayushgurjar10/imdb-sentiment-app/general
+
 
 ---
 
@@ -200,6 +203,7 @@ pip install -r requirements.txt
 ## 🏆 Conclusion
 
 This project demonstrates **full-stack ML engineering**, covering data preprocessing, deep learning, API development, UI visualization, containerization, and cloud deployment.
+
 
 
 
